@@ -1,0 +1,30 @@
+---
+title: "Work Out 1"
+author: "Horton Papa"
+date: "10/1/2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.path = 'workout01-horton-papa_files/')
+
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
