@@ -1,5 +1,7 @@
 #Title: NBA 2018 teams table
 #Description: This code creates a team table from nba2018.csv
+#input(s):  data from nba2018.csv
+#output(s): Creates new tibble and writes to a file nba2018-teams.csv. Also creates a new tibble teaams containg totals of attributes of vectors from nba2018.csv, new files for summary of the teams tibble and a summary of efficiency.
 
 library(ggplot2)
 library(dplyr)
