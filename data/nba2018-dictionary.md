@@ -1,10 +1,13 @@
 #nba-2018.csv contains data about NBA player statistics
 
 
-# The .csv file has 478 rows and 39 columns with player names and corresponding statistics for each player on their respective columns
+
+#The .csv file has 478 rows and 39 columns with player names and corresponding statistics for each player on their respective columns
 
 
 #The following are the columns description for the data with their respective definitions
+
+
 * player: first and last names of player • number: number on jersey
 * team: 3-letter team abbreviation
 * position: player’s position
@@ -40,3 +43,10 @@
 * turnovers: Turnovers
 * fouls: Fouls
 * points: Total points
+* efficiency: Calculated by the following formula: 
+  * efficiency = (points + rebounds + assists + steals + blocks
+                 - missed_fg - missed_ft - turnovers) / games_played
+* missed_fg: missed field goals
+* missed_ft: missed freethrows
+* rebounds: total rebounds
+
